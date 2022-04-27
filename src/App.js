@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} exact/>
+        <Route path='/cybertrip-test' element={<Home />} exact/>
         <Route path='/signin' element={<SigninPage />} exact/>
         <Route path='/register' element={<RegisterPage />} exact/>
       </Routes>
