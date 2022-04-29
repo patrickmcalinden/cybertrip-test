@@ -67,7 +67,7 @@ const SignIn = () => {
   return (
     <>
     <Container >
-        <Icon to='/'>CyberTrip</Icon>
+        <Icon to='/cybertrip-test'>CyberTrip</Icon>
         
         <FormWrap>
               <H1Wrapper>
