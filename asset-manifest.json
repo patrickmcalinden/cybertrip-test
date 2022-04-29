@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cybertrip-test/static/css/main.b2cdf1fa.css",
-    "main.js": "/cybertrip-test/static/js/main.ed18913d.js",
+    "main.js": "/cybertrip-test/static/js/main.d46e343a.js",
     "static/media/video2.mp4": "/cybertrip-test/static/media/video2.7a7daf7cc31aec67d141.mp4",
     "static/media/trip_Match.svg": "/cybertrip-test/static/media/trip_Match.8316df98aa38c11c7a67ad14a191a44a.svg",
     "static/media/login.jpeg": "/cybertrip-test/static/media/login.39fff7166347e582c37c.jpeg",
@@ -12,10 +12,10 @@
     "static/media/flight_Booking.svg": "/cybertrip-test/static/media/flight_Booking.0893088e3fe8bb1e0d0d70505cb0d523.svg",
     "index.html": "/cybertrip-test/index.html",
     "main.b2cdf1fa.css.map": "/cybertrip-test/static/css/main.b2cdf1fa.css.map",
-    "main.ed18913d.js.map": "/cybertrip-test/static/js/main.ed18913d.js.map"
+    "main.d46e343a.js.map": "/cybertrip-test/static/js/main.d46e343a.js.map"
   },
   "entrypoints": [
     "static/css/main.b2cdf1fa.css",
-    "static/js/main.ed18913d.js"
+    "static/js/main.d46e343a.js"
   ]
 }
