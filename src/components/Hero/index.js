@@ -3,6 +3,8 @@ import Video from '../../video/video2.mp4'
 import { HeroContainer, HeroBg, VideoBg , HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowFoward, ArrowRight } from './HeroElements'
 import { Button } from '../ButtonScrollElement'
 
+
+
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
 
@@ -25,7 +27,7 @@ const HeroSection = () => {
   return (
       <HeroContainer id='home'>
           <HeroBg>
-              <VideoBg autoPlay loop muted playsinline disablePictureInPicture src={Video} type='video/mp4' />
+            <VideoBg  autoPlay loop muted playsinline disablePictureInPicture src={Video} controls type='video/mp4' />
           </HeroBg>
           <HeroContent>
             <HeroH1>CyberTrip</HeroH1>
