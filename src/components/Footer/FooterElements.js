@@ -18,8 +18,8 @@ export const FooterWrap = styled.div`
 `
 
 export const FooterLinksContainer = styled.div`
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 
     @media screen and (max-width: 820px) {
         padding-top: 5px;
@@ -29,19 +29,20 @@ export const FooterLinksContainer = styled.div`
 
 export const FooterLinksWrapper = styled.div`
     display: flex;
-    max-width: 200px;
+    max-width: 500px;
+    /* justify-content: center; */
 
     @media screen and (max-width: 820px) {
-       flex-direction: row;
+       /* flex-direction: row; */
     }
 `
 export const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin: 16px;
-    text-align: left;
-    width: 160px;
+    text-align: center;
+    width: fit-content;
     box-sizing: border-box;
     color: #fff;
 
@@ -77,6 +78,7 @@ export const FooterLinkR = styled(LinkR)`
     font-size: 14px;
     cursor: pointer;
     
+    
 
     &:hover{
         color: #59d8a1;
@@ -104,7 +106,5 @@ export const FooterBottomWrap = styled.div`
 export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
-
 `
-
 

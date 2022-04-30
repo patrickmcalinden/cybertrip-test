@@ -8,19 +8,30 @@ export const InfoContainer = styled.div`
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
+    @media screen and (max-width: 458px) {
+        padding: 50px 0;
+    }
         
 `
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 970px; //originally 860px
+    height: 980px; //originally 860px
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 1400px){
+        height: 860px;
+    }  
+
+    @media screen and (max-width: 768px){
+        height: 750px;
+    }  
 
 `
 
@@ -55,7 +66,18 @@ export const TextWrapper = styled.div`
     
     @media screen and (max-width: 768px){
         text-align: center;
+        width: 400px;
+        padding-bottom: 0px;
+        margin-bottom: -100px;
     }  
+    @media screen and (max-width: 550px){
+        text-align: center;
+        width: fit-content;
+        
+    }  
+    @media screen and (max-width: 336px){
+        margin-bottom: -50px;
+    }
 
 `
 export const TopLine = styled.p`
@@ -67,6 +89,10 @@ export const TopLine = styled.p`
     letter-spacing: 1.4opx;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 850px){
+        font-size: 1.35rem;
+    }
     
     @media screen and (max-width: 480px){
         line-height: 20px;
@@ -92,6 +118,9 @@ export const Heading = styled.h1`
         font-size: 2.5rem;
         
     }  
+    @media screen and (max-width: 850px){
+        font-size: 2rem;
+    }
     @media screen and (max-width: 480px){
         font-size: 1.8rem;
     }

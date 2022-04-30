@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, FormWrap, Icon, Form, FormH1, FormLabel, FormInput, FormButton, TextH2, H1Wrapper, Left, Right, ButtonDiv, TextDiv, FormSelect} from './RegisterElements'
 
+
 const Register = () => {
   return (
     <>
@@ -23,15 +24,16 @@ const Register = () => {
                         <FormLabel htmlfor='for'>Date of Birth</FormLabel>
                         <FormInput type='date'/>
                         <FormLabel htmlfor='for'>Gender</FormLabel>
-                        <FormSelect type='select' required placeholder=''>
-                              <option value="grapefruit">MALE</option>
-                              <option value="lime">FEMALE</option>
-                              <option value="lime">OTHER</option>
+                        <FormSelect type='select' selected required placeholder='Select One'>
+                              <option value="NULL" disabled selected>Select One...</option>
+                              <option value="MALE">MALE</option>
+                              <option value="FEMALE">FEMALE</option>
+                              <option value="OTHER">OTHER</option>
                         </FormSelect>
                       </Left>
                       <Right>
-                            <FormLabel htmlfor='for'>Cellphone Number</FormLabel>
-                            <FormInput type='telNo' required placeholder='777-777-7777' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                            <FormLabel htmlfor='for'>Phone Number</FormLabel>
+                            <FormInput type='number' required placeholder='777-777-7777' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
                             <FormLabel htmlfor='for'>Home Airport</FormLabel>
                             <FormInput type='text' required placeholder='Aita Code' />
                             <FormLabel htmlfor='for'>Trip Budget</FormLabel>

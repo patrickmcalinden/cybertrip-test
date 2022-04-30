@@ -20,7 +20,7 @@ const InfoSection = ({lightBg, id, imgStart, lightText, topLine, headline, darkT
                         <Heading lightText={lightText}>{headline}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <BtnWrap>
-                            <Button smooth={true} duration={500} spy={true} exact="true" offsett={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ?  1 : 0}to={toLink} onMouseEnter={onHover} onMouseLeave={onHover}> {buttonLabel}{hover ? <ArrowFoward /> : <ArrowRight />}</Button>
+                            <Button  duration={500}  exact="true" offsett={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ?  1 : 0}to={toLink} onMouseEnter={onHover} onMouseLeave={onHover}> {buttonLabel}{hover ? <ArrowFoward /> : <ArrowRight />}</Button>
                         </BtnWrap>
                     </TextWrapper>
                 </Column1>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {FooterContainer,FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, FooterBottom, FooterBottomWrap, WebsiteRights, FooterLinkR} from './FooterElements'   
+import {FooterContainer,FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, FooterBottom, FooterBottomWrap, WebsiteRights, FooterLinkR, Facebook, Twitter, Instagram} from './FooterElements'   
 
 
 const Footer = () => {
@@ -20,6 +20,12 @@ const Footer = () => {
                             <FooterLinkR to='/signin'>Contact Us</FooterLinkR>    
                             <FooterLinkR to='/signin'>Terms of Service</FooterLinkR>   
                             <FooterLinkR to='/signin'>Data Policy</FooterLinkR>   
+                    </FooterLinkItems>
+                    <FooterLinkItems>
+                        <FooterLinkTitle>Social</FooterLinkTitle>    
+                            <FooterLinkR to='/signin'>Instagram</FooterLinkR>    
+                            <FooterLinkR to='/signin'>Twitter</FooterLinkR>   
+                            <FooterLinkR to='/signin'>Facebook</FooterLinkR>   
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
