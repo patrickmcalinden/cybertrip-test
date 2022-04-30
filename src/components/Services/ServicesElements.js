@@ -117,6 +117,6 @@ export const IconWrapper = styled.div`
 `
 
 export const ServicesIcon = styled.img`
-    
+    width: 75%
 
 `
