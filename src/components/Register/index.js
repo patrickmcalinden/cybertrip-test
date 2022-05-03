@@ -14,9 +14,9 @@ const Register = () => {
                 <Form action ='#'>
                     <Left>
                         <FormLabel htmlfor='for'>First Name</FormLabel>
-                        <FormInput type='FirstName' required placeholder='Hugh' />
+                        <FormInput type='FirstName' required placeholder='Jimmy' />
                         <FormLabel htmlfor='for'>Last Name</FormLabel>
-                        <FormInput type='LastName' required placeholder='Mungus' />
+                        <FormInput type='LastName' required placeholder='Smith' />
                         <FormLabel htmlfor='for'>Email</FormLabel>
                         <FormInput type='emial' required placeholder='atblank@gmail.com' />
                         <FormLabel htmlfor='for'>Password</FormLabel>

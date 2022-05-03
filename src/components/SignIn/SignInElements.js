@@ -150,7 +150,7 @@ export const FormInput = styled.input`
     font-size: medium;
 
     &::placeholder{
-        color: black;
+        color: gray;
     }
 
     @media screen and (max-width: 350px) {
