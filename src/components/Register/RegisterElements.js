@@ -153,6 +153,10 @@ export const FormSelect = styled.select` // Might have to make changes to this f
     background-color: white;
     color: black;
     
+    &:focus{
+        color: black;
+    }
+    
     &::placeholder{
         color: gray;
     }
