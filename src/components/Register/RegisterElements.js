@@ -152,7 +152,7 @@ export const FormSelect = styled.select` // Might have to make changes to this f
     font-size: medium;
     
     &::placeholder{
-        color: black;
+        color: gray;
     }
     @media screen and (max-width: 350px) {
         font-size: .8rem;
@@ -168,6 +168,7 @@ export const FormInput = styled.input`
     padding-left: 2px;
     height: 50px;
     font-size: medium;
+    background: white;
     
     &::placeholder{
         color: gray;
