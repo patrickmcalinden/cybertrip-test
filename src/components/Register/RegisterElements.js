@@ -151,6 +151,7 @@ export const FormSelect = styled.select` // Might have to make changes to this f
     height: 50px;
     font-size: medium;
     background-color: white;
+    color: black;
     
     &::placeholder{
         color: gray;
