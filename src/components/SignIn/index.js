@@ -75,7 +75,7 @@ const SignIn = () => {
               </H1Wrapper>
               <Form onSubmit={handleSubmit}>
                     <FormLabel htmlfor='for'>Email <EmailIcon/> </FormLabel>
-                    <FormInput name='email' type='emial' required placeholder='jimmysmith@gmail.com' value={ values.email} onChange={handleChange}/>
+                    <FormInput name='email' type='email' required placeholder='jimmysmith@gmail.com' value={ values.email} onChange={handleChange}/>
                     <FormatError> {formErrors.email}</FormatError>
                     <FormLabel htmlfor='for'>Password <PasswordIcon/></FormLabel>
                     <FormInput name='password'type='password' required placeholder='*********' value={ values.password} onChange={handleChange}/>

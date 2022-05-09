@@ -236,3 +236,9 @@ export const TextH2 = styled(Link)`
     }
     
 `
+
+export const FormatError = styled.p`
+        color: red;
+        margin-bottom: 16px;
+
+`
