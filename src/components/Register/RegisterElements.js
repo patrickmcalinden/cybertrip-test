@@ -39,8 +39,10 @@ export const FormWrap = styled.div`
     border-radius: 10px;
     justify-self: center;
     border-width: 5px;
-    padding-bottom: 4em;
+    /* padding-bottom: 4em; */ //removed since it casued weird issue with error message popping up
     width: 550px;
+    padding: 0em 3em 3em 3em;
+    margin: 0 1em 0 1em;
 
     @media screen and (max-width: 650px) {
         width: fit-content;
@@ -88,16 +90,14 @@ export const Form = styled.form`
 
 `
 export const Left = styled.div`
-    column: 1;
-
+    width: 50%;
     @media screen and (max-width: 420px) {
         max-width: fit-content;
     }
 
 `
 export const Right = styled.div`
-    column: 2;
-
+    width: 50%;
     @media screen and (max-width: 420px) {
         max-width: fit-content;
     }
