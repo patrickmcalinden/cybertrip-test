@@ -16,7 +16,7 @@ const Register = () => {
   const handleChange = (e) => {
     const {name, value} = e.target;
     setValues({...values, [name]: value});
-    console.log(values)
+
   }
 
   const handleSubmit = async (e) => {
@@ -97,7 +97,7 @@ const Register = () => {
                         <FormInput name="dateBirth" type='date' value={values.dateBirth} onChange={handleChange}/>
                         <FormLabel htmlfor='for'>Gender</FormLabel>
                         <FormSelect name="gender" type='select' required placeholder='Select One' value={values.gender} onChange={handleChange}>
-                              <option value="NULL" disabled selected >Select One...</option>
+                              <option value="" disabled>Select One...</option>
                               <option value="MALE">MALE</option>
                               <option value="FEMALE">FEMALE</option>
                               <option value="OTHER">OTHER</option>
